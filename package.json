@@ -1,5 +1,5 @@
 {
-	"name": "@phaetonhq/phaeton-validator",
+	"name": "phaeton-validator",
 	"version": "0.2.1",
 	"description": "Validation library according to the Phaeton protocol",
 	"author": "Phaeton Foundation <admin@phaeton.io>, lightcurve GmbH <admin@lightcurve.io>",
@@ -95,7 +95,5 @@
 		"wait-on": "3.2.0"
 	}
 
-,"_resolved": "https://registry.npmjs.org/@phaetonhq/phaeton-validator/-/phaeton-validator-0.2.1.tgz"
-,"_integrity": "sha512-yElxdJ9U3YBLLmEhi/Xfm+P2FHZwcUX7gf5C9vz5zZeRF8y0oQtmhmv3Zep9rM0ydGjVCXJTi4R6cUcMoB7hIA=="
-,"_from": "@phaetonhq/phaeton-validator@0.2.1"
+,"_from": "phaeton-validator@0.2.1"
 }
