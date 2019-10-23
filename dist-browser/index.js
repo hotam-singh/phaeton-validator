@@ -2,7 +2,7 @@
 (function (Buffer){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const BigNum = require("@phaetonhq/bignum");
+const BigNum = require("bignum");
 exports.BIG_ENDIAN = 'big';
 exports.LITTLE_ENDIAN = 'little';
 exports.intToBuffer = (value, byteLength, endianness = exports.BIG_ENDIAN) => new BigNum(value).toBuffer({ size: byteLength, endian: endianness });
@@ -26,7 +26,7 @@ exports.hexToBuffer = (hex, argumentName = 'Argument') => {
 };
 
 }).call(this,require("buffer").Buffer)
-},{"@phaetonhq/bignum":62,"buffer":111}],2:[function(require,module,exports){
+},{"bignum":62,"buffer":111}],2:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SIGNED_MESSAGE_PREFIX = 'Phaeton Signed Message:\n';
@@ -520,7 +520,7 @@ exports.MAX_INT64 = '9223372036854775807';
 },{}],13:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const BigNum = require("@phaetonhq/bignum");
+const BigNum = require("bignum");
 const validation_1 = require("./validation");
 exports.address = (data) => {
     try {
@@ -591,7 +591,7 @@ exports.signedPublicKey = (data) => {
 exports.transferAmount = validation_1.validateTransferAmount;
 exports.username = validation_1.isUsername;
 
-},{"./validation":16,"@phaetonhq/bignum":62}],14:[function(require,module,exports){
+},{"./validation":16,"bignum":62}],14:[function(require,module,exports){
 "use strict";
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -634,8 +634,8 @@ exports.validator = new PhaetonValidator();
 (function (Buffer){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const BigNum = require("@phaetonhq/bignum");
-const phaeton_cryptography_1 = require("@phaetonhq/phaeton-cryptography");
+const BigNum = require("bignum");
+const phaeton_cryptography_1 = require("phaeton-cryptography");
 const semver_1 = require("semver");
 const validator = require("validator");
 const constants_1 = require("./constants");
@@ -766,7 +766,7 @@ exports.isCsv = (data) => {
 };
 
 }).call(this,require("buffer").Buffer)
-},{"./constants":12,"@phaetonhq/bignum":62,"@phaetonhq/phaeton-cryptography":6,"buffer":111,"semver":213,"validator":228}],17:[function(require,module,exports){
+},{"./constants":12,"bignum":62,"phaeton-cryptography":6,"buffer":111,"semver":213,"validator":228}],17:[function(require,module,exports){
 'use strict';
 
 var compileSchema = require('./compile')

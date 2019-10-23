@@ -1,11 +1,11 @@
-# @phaetonhq/phaeton-validator
+# phaeton-validator
 
-@phaetonhq/phaeton-validator is a wrapper of validation libraries. It includes custom validations related to Phaeton protocol.
+phaeton-validator is a wrapper of validation libraries. It includes custom validations related to Phaeton protocol.
 
 ## Installation
 
 ```sh
-$ npm install --save @phaetonhq/phaeton-validator
+$ npm install --save phaeton-validator
 ```
 
 ## License

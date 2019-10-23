@@ -1,4 +1,4 @@
-import * as BigNum from '@phaetonhq/bignum';
+import * as BigNum from 'bignum';
 import { gte as isVersionGte, gtr as isGreaterThanVersionInRange, ltr as isLessThanVersionInRange } from 'semver';
 export declare const isNullCharacterIncluded: (input: string) => boolean;
 export declare const isUsername: (username: string) => boolean;
